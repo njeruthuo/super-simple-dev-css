@@ -1,0 +1,56 @@
+.container1{
+    display: flex;
+}
+
+.d1{
+    width: 200px;
+    background-color: lightblue;
+}
+
+.d2{
+    width: 75px;
+    background-color: lightcoral;
+}
+
+.container2{
+    display: flex;
+}
+
+.d3{
+    width: 50px;
+    background-color: lightblue;
+}
+
+.d4{
+    flex: 1;
+    background-color: lightgreen;
+}
+
+.d5{
+    width: 75px;
+    background-color: lightcoral;
+}
+
+
+.container3{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.d6,.d7,.d8,.d9{
+    width: 55px;
+    background-color: lightcoral;
+}
+
+.nav{
+    display: flex;
+    border: 1px solid gray;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divs{
+    background-color: lightcoral;
+}

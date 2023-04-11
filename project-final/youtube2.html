@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>YouTube Clone</title>
+        <style>
+            body {
+                width: 95%;
+                margin: 5rem auto;
+                font-family: "Roboto", sans-serif;
+            }
+
+            p {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .video-preview {
+                display: inline-block;
+                vertical-align: top;
+                width: 300px;
+                margin: 5px;
+                /* border: 1px solid black; */
+                border-radius: 5px;
+                box-shadow: 3px 4px 3px black;
+            }
+
+            .thumbnail {
+                width: 100%;
+                height: 201px;
+                margin-bottom: 12px;
+            }
+
+            .channel-picture {
+                margin-right: 10px;
+                /* background: gray; */
+                width: 100%;
+            }
+
+            .video-info-grid {
+                display: grid;
+                column-gap: 5px;
+                grid-template-columns: 50px 1fr;
+            }
+
+            .profile-picture {
+                /* margin: 5px; */
+                border-radius: 50%;
+                width: 50px;
+            }
+
+            .video-author {
+                color: rgb(96, 96, 96);
+                margin-bottom: 5px;
+            }
+
+            .video-title {
+                margin-top: 0;
+                margin-bottom: 12px;
+                font-size: 15px;
+                font-weight: 700;
+            }
+
+            .video-stats {
+                margin-bottom: 12px;
+                color: rgb(96, 96, 96);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="video-preview">
+            <div>
+                <img class="thumbnail" src="./horse4.jpeg" alt="Horse Image" />
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                        class="profile-picture"
+                        src="./horse5.jpeg"
+                        alt="Profile Picture"
+                    />
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">
+                        This is the truth about horses! You will not believe.I
+                        see I saw
+                    </p>
+                    <p class="video-author">Julius Njeru Thuo</p>
+                    <p class="video-stats">2B views &centerdot; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div>
+                <img class="thumbnail" src="./horse4.jpeg" alt="Horse Image" />
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                        class="profile-picture"
+                        src="./horse5.jpeg"
+                        alt="Profile Picture"
+                    />
+                </div>
+
+                <div class="video-info">
+                    <p class="video-title">
+                        This is the truth about horses! You will not believe.I
+                        see I saw
+                    </p>
+                    <p class="video-author">Julius Njeru Thuo</p>
+                    <p class="video-stats">2B views &centerdot; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

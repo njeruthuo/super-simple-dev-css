@@ -1,0 +1,46 @@
+body {
+    background: -webkit-linear-gradient(
+        315deg,
+        hsla(236.6, 0%, 53.52%, 1) 0,
+        hsla(236.6, 0%, 53.52%, 0) 70%
+    );
+    color: white;
+    font-family: Arial;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.greet {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.logout {
+    text-align: center;
+    background: #807c7c;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+.table {
+    margin: 6rem 12rem;
+    font-size: 10px;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.right {
+    margin-left: 2rem;
+}
+
+.left {
+    margin-right: 2rem;
+}

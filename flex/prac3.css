@@ -1,0 +1,56 @@
+.container {
+    height: 65px;
+    display: flex;
+    min-width: 60rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(163, 15, 221);
+}
+
+.left-end {
+    height: 45px;
+    width: 20rem;
+    color: white;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    /* border: 1px solid brown; */
+}
+
+.middle-section {
+    flex: 1;
+    height: 2rem;
+    min-width: 35rem;
+    /* border: 1px solid brown; */
+}
+
+.right-end {
+    width: 12rem;
+    color: white;
+    min-width: 8rem;
+    padding: 0.2rem;
+    text-align: center;
+    /* border: 1px solid brown; */
+}
+
+.download-button {
+    cursor: pointer;    
+    padding: 8px 5px;
+    margin-right: 9px;
+    border: 1px solid white;
+}
+
+.search-bar {
+    width: 75%;
+    height: 95%;
+    border: none;
+    font-size: 15px;
+    padding: 0 2rem;
+    border-radius: 15px;
+    color: rgb(96, 96, 96);
+}
+
+.text{
+    cursor: pointer;  
+    /* margin-right: 13rem; */
+    /* border: 1px solid brown; */
+}
